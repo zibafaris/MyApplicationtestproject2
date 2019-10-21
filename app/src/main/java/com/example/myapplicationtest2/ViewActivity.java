@@ -38,7 +38,7 @@ public class ViewActivity extends AppCompatActivity {
                 i.putExtra("name",txt1.getText());
                 i.putExtra("family",txt2.getText());
                 i.putExtra("age",txt3.getText());
-                i.putExtra("mail",txt4.getText());
+                i.putExtra("email",txt4.getText());
                 setResult(ProfileActivity.RESULT_OK,i);
                 Toast.makeText(ViewActivity.this," successful",Toast.LENGTH_SHORT).show();
 //                finish();
@@ -53,12 +53,12 @@ public class ViewActivity extends AppCompatActivity {
                 i.putExtra("name",txt1.getText());
                 i.putExtra("family",txt2.getText());
                 i.putExtra("age",txt3.getText());
-                i.putExtra("mail",txt4.getText());
+                i.putExtra("email",txt4.getText());
 
                 PreferenceManager.getDefaultSharedPreferences(ViewActivity.this).getString("name",txt1.getText().toString());
                 PreferenceManager.getDefaultSharedPreferences(ViewActivity.this) .getString("family",txt2.getText().toString());
                 PreferenceManager.getDefaultSharedPreferences(ViewActivity.this) .getString("age",txt3.getText().toString());
-                PreferenceManager.getDefaultSharedPreferences(ViewActivity.this) .getString("mail",txt4.getText().toString());
+                PreferenceManager.getDefaultSharedPreferences(ViewActivity.this) .getString("email",txt4.getText().toString());
                 setResult(ProfileActivity.RESULT_CANCELED);
                 Toast.makeText(ViewActivity.this,"retry",Toast.LENGTH_SHORT).show();
                 finish();
