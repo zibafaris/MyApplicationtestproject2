@@ -28,7 +28,7 @@ public class ViewActivity extends AppCompatActivity {
         txt1.setText(i.getStringExtra("name"));
         txt2.setText(i.getStringExtra("family"));
         txt3.setText(i.getStringExtra("age"));
-        txt4.setText(i.getStringExtra("mail"));
+        txt4.setText(i.getStringExtra("email"));
 
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override

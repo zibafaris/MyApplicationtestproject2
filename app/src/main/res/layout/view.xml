@@ -21,42 +21,40 @@
             android:id="@+id/txt1"
             android:layout_width="300dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="40dp"
             android:layout_marginTop="100dp"
             android:background="@drawable/customborder"
             android:text="name"
-            android:textSize="20dp"
             android:textStyle="bold"
+            android:layout_gravity="center"
+
+
             />
         <TextView
             android:id="@+id/txt2"
             android:layout_width="300dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/customborder"
             android:text="family"
-            android:textSize="20dp"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/txt3"
             android:layout_width="300dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/customborder"
             android:text="age"
-            android:textSize="20dp"
             android:textStyle="bold" />
         <TextView
             android:id="@+id/txt4"
             android:layout_width="300dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="40dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/customborder"
             android:text="email"
-            android:textSize="20dp"
             android:textStyle="bold" />
 
     </LinearLayout>
