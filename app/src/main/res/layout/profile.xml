@@ -23,7 +23,7 @@
             android:layout_marginTop="60dp"
             android:hint="Inter your name"
             android:layout_gravity="center"
-            android:background="#bbb"
+            android:background="@drawable/customborder"
             >
 
         </EditText>
@@ -34,7 +34,7 @@
             android:layout_marginTop="20dp"
             android:hint="Inter your family"
             android:layout_gravity="center"
-            android:background="#bbb"
+            android:background="@drawable/customborder"
 
             >
 
@@ -46,7 +46,7 @@
             android:layout_marginTop="20dp"
             android:hint="Inter your age"
             android:layout_gravity="center"
-            android:background="#bbb"
+            android:background="@drawable/customborder"
             android:inputType="number"
 
             >
@@ -59,7 +59,7 @@
             android:layout_marginTop="20dp"
             android:hint="----@gmail.com"
             android:layout_gravity="center"
-            android:background="#bbb"
+            android:background="@drawable/customborder"
 
             >
 
