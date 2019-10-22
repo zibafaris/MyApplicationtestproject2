@@ -16,6 +16,7 @@ public class ViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view);
+
         final TextView txt1 =findViewById(R.id.txt1);
         final TextView txt2 =findViewById(R.id.txt2);
         final TextView txt3 =findViewById(R.id.txt3);
@@ -64,10 +65,6 @@ public class ViewActivity extends AppCompatActivity {
                 finish();
             }
         });
-
-
-
-
 
     }
 }

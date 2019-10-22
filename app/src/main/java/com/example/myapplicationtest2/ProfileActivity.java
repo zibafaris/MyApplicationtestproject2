@@ -32,13 +32,6 @@ public class ProfileActivity extends AppCompatActivity {
         edtage.setText(age);
         edtemail.setText(email);
 
-        androidx.preference.PreferenceManager.getDefaultSharedPreferences(ProfileActivity.this).getString("name",edtname.getText().toString());
-        androidx.preference.PreferenceManager.getDefaultSharedPreferences(ProfileActivity.this) .getString("family",edtfamily.getText().toString());
-        androidx.preference.PreferenceManager.getDefaultSharedPreferences(ProfileActivity.this) .getString("age",edtage.getText().toString());
-        androidx.preference.PreferenceManager.getDefaultSharedPreferences(ProfileActivity.this) .getString("email",edtemail.getText().toString());
-
-
-
         btnreview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
